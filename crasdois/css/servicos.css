@@ -1,0 +1,39 @@
+
+.texto-servico p {
+    background-image: url('../img/jaime3.png');
+    color: #000000;
+    font-size:25px;
+}
+
+.texto-servico h2 {
+    background-image: url('../img/jaime3.png');
+    color: #000000;
+    font-size:25px;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 49px;
+    height: 53px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/esquerda2.png');
+    top: 10%;
+    left: 12%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 45px;
+    height: 50px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/direita2.png');
+    top: 10%;
+    right: 12%;
+    
+}

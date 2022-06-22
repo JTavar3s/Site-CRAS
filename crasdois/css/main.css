@@ -1,0 +1,253 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color:#252323;
+    height: 60px;
+} 
+
+
+main, .content {
+   margin: 0 auto;
+   width: 980px;
+   position: relative;
+}
+
+.logo{
+    float: left;
+    padding: 1px;
+    width: 60%;
+ 
+}
+
+.redes-sociais ul li {
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+
+.header-2 {
+    background-color: #FFFFFF;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+
+.menu-urls {
+height: 80px;;
+  border-bottom: 3px solid #efefef;
+}
+
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover{
+    border-bottom: 2px solid #00bac6;
+}
+
+.menu ul li a:hover {
+  color: #00bac6;
+ 
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+  
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    width: 30%;
+    float: right;
+    text-align: center;
+ 
+}
+
+.busca input {
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    margin-top: 10px;
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    border: 1px solid #d6d6d6;
+
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 49px;
+    height: 53px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/esquerda2.png');
+    top: 35%;
+    left: 12%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 45px;
+    height: 50px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/direita2.png');
+    top: 35%;
+    right: 12%;
+    
+}
+
+.slick-list {
+    width: 100%!important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #000000;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 44%;
+    top: 370px;
+}
+
+li.slick-active button{
+    background: yellow;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque strong {
+    color: #000000;
+}
+
+.texto-destaque h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #000000;
+}
+
+.texto-destaque p {
+    color: #000000;
+    font-size:18px;
+}
+
+.col-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.bloco-texto{
+    margin-top: 3em;
+}
+
+h3{
+    font-weight: normal!important;
+}
+
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img {
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+.col-4 img:hover {
+    margin-top: 10px!important;
+}
+
+.bloco-logos {
+    height: 88px;
+}
+
+.bloco-logos img {
+    margin-top: 30px;
+}
+
+.footer {
+    background-image: url('../img/criarlogonova.png');
+    color: #000000;
+    width: 100%;
+    height: 60px;
+}
+
+.servicos h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+

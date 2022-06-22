@@ -1,0 +1,19 @@
+.bloco-logosum {
+    height: 417px;
+}
+
+.col-4 img {
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 23em;
+}
+
+.col-1 img {
+
+    width: 80%;
+    margin: 20 auto;
+    padding: 52px;
+    padding-top: 4em;
+    align: left;
+}
+
